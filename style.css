@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    background: url(./simple-feature-section-master/resources/Background_image@3x.png) #121826;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.content{
+    text-align: center;
+}
+
+.title{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+
+h1,h2{
+  color: #E5E7EB;
+}
+
+.heading{
+  font-size: 40px;
+}
+
+p{
+    color: #858b97;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media ( width<400px ){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+}
+
+.image{
+    height: 185px;
+    background-image: url(./simple-feature-section-master/resources/photo_1@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.card1{
+    background-color: #212936;
+    height: 370px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+@media(width<400px){
+    .card1{
+        width: 200px;
+    }
+}
+
+.img1{
+    background-image: url(./simple-feature-section-master/resources/photo_2@2x.png);
+}
+
+.card2{
+    background-color: #212936;
+    height: 370px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+@media(width<400px){
+    .card2{
+        width: 200px;
+    }
+}
+
+.img2{
+    background-image: url(./simple-feature-section-master/resources/photo_1@2x.png);
+}
+
+.card3{
+    background-color: #212936;
+    height: 370px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+@media(width<400px){
+    .card3{
+        width: 200px;
+    }
+}
+
+.img3{
+    background-image: url(./simple-feature-section-master/resources/photo_3@2x.png);
+}
+
